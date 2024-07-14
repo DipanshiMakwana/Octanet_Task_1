@@ -1,0 +1,114 @@
+h1{
+    color: #000000;
+    font-size: 30px;
+}
+.bg-img {
+    /* The image used */
+    background-image: url("bg.png");
+  
+    min-height: 500px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+  
+    width: 99%;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+   
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px ;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .content{
+    text-align: center;
+    padding: 110px 60px 0px 60px;
+  }
+  .content1{
+    text-align: center;
+    padding: 10px 60px 0px 60px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+ .footer{
+    background-color: #1248A0;
+ }
+ .social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+.menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }  
